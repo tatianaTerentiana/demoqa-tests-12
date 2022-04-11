@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="guru.qa.SimpleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-11T14:04:44" hostname="LAPTOP-VGNOKFMH" time="0.065">
+  <properties/>
+  <testcase name="assertTest2()" classname="guru.qa.SimpleTest" time="0.048"/>
+  <testcase name="assertTest()" classname="guru.qa.SimpleTest" time="0.015"/>
+  <system-out><![CDATA[### @BeforeAll
+###     @BeforeEach
+###         @Test1
+###     @AfterEach
+###     @BeforeEach
+###         @Test0
+###     @AfterEach
+### @AfterAll
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
