@@ -1,4 +1,4 @@
-package guru.qa.demoqa;
+package guru.qa.tests.demoqa;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
@@ -31,6 +31,8 @@ public class TextBoxTests {
         $("[id=currentAddress]").setValue(testCurrentAddress);
         $("[id=permanentAddress]").setValue(testPermanentAddress);
         $("[id=submit]").click();
+        //сокращение только для id и class
+        //$("#submit").click();
 
         $("[id=output]").shouldHave(text(testName), text(testEmail), text(testCurrentAddress), text(testPermanentAddress));
 
