@@ -36,7 +36,6 @@ public class AutomationPracticeFormTests {
         String testLocation = "NCR Noida";
 
 
-
         open("/automation-practice-form");
 
         $("#firstName").setValue(testFirstName);
@@ -45,9 +44,6 @@ public class AutomationPracticeFormTests {
 
         //radiobutton
         $(byText("Female")).click();
-
-
-
 
 
         $("#userNumber").setValue(testPhone);
@@ -87,8 +83,6 @@ public class AutomationPracticeFormTests {
         $("#react-select-3-input").setValue("Haryana").pressEnter();
         $("#react-select-4-input").setValue("Panipat").pressEnter();
         $("#submit").click();
-
-
 
 
         //Asserts
